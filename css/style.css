@@ -1,0 +1,563 @@
+body{
+    margin: 0px;
+    background:  white;
+}
+.loader{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.loader img{
+    width: 100%;
+    height: 100%;
+}
+.loader span{
+    display: inline-block;
+    position: absolute;
+    background: white;
+  
+    /* display: none; */
+}
+/*..................Loader Time Set...............*/
+#loader1{
+   animation: 1ms loader1 linear forwards;
+}
+
+#loader2{
+    animation: 1ms 1000ms  loader2 linear forwards;
+}
+#loader3{
+    animation: 1ms 2000ms  loader3 linear forwards;
+}
+#loader4{
+    animation: 1ms 3000ms  loader4 linear forwards;
+}
+#loader5{
+    animation: 1ms 4000ms  loader5 linear forwards;
+}
+#loader6{
+    animation: 1ms 5000ms  loader6 linear forwards;
+}
+#loader7{
+    animation: 1ms 6000ms  loader7 linear forwards;
+}
+#loader8{
+    animation: 1ms 7000ms  loader8 linear forwards;
+}
+#loader9{
+    animation: 1ms 8000ms  loader9 linear forwards;
+}
+#loader10{
+    animation: 1ms 9000ms  loader10 linear forwards;
+}
+#loader11{
+    animation: 1ms 10000ms  loader11 linear forwards;
+}
+#loader12{
+    animation: 1ms 11000ms  loader12 linear forwards;
+}
+#loader13{
+    animation: 1ms 12000ms  loader13 linear forwards;
+}
+#loader14{
+    animation: 1ms 13000ms  loader14 linear forwards;
+}
+#loader15{
+    animation: 1ms 14000ms  loader15 linear forwards;
+}
+#loader16{
+    animation: 1ms 15000ms  loader16 linear forwards;
+}
+#loader17{
+    animation: 1ms 16000ms  loader17 linear forwards;
+}
+#loader18{
+    animation: 1ms 17000ms  loader18 linear forwards;
+}
+#loader19{
+    animation: 1ms 18000ms  loader19 linear forwards;
+}
+#loader20{
+    animation: 1ms 19000ms  loader20 linear forwards;
+}
+/*.............Loader Time Set End.............*/
+
+
+/*........Loader span 1 ........*/
+
+#loader_span1{
+    width: 50%;
+    height: 25%;
+    /* background: green; */
+    top: 0px;
+    left: 0px;
+}
+#loader1 span:nth-of-type(1){
+    animation: 200ms load_animate1   linear forwards; 
+}
+#loader2 span:nth-of-type(1){
+    animation: 200ms 1000ms load_animate1   linear forwards; 
+}
+#loader3 span:nth-of-type(1){
+    animation: 200ms 2000ms load_animate1   linear forwards; 
+}
+#loader4 span:nth-of-type(1){
+    animation: 200ms 3000ms load_animate1   linear forwards; 
+}
+#loader5 span:nth-of-type(1){
+    animation: 200ms 4000ms load_animate1   linear forwards; 
+}
+#loader6 span:nth-of-type(1){
+    animation: 200ms 5000ms load_animate1   linear forwards; 
+}
+#loader7 span:nth-of-type(1){
+    animation: 200ms 6000ms load_animate1   linear forwards; 
+}
+#loader8 span:nth-of-type(1){
+    animation: 200ms 7000ms load_animate1   linear forwards; 
+}
+#loader9 span:nth-of-type(1){
+    animation: 200ms 8000ms load_animate1   linear forwards; 
+}
+#loader10 span:nth-of-type(1){
+    animation: 200ms 9000ms load_animate1   linear forwards; 
+}
+#loader11 span:nth-of-type(1){
+    animation: 200ms 10000ms load_animate1   linear forwards; 
+}
+#loader12 span:nth-of-type(1){
+    animation: 200ms 11000ms load_animate1   linear forwards; 
+}
+#loader13 span:nth-of-type(1){
+    animation: 200ms 12000ms load_animate1   linear forwards; 
+}
+#loader14 span:nth-of-type(1){
+    animation: 200ms 13000ms load_animate1   linear forwards; 
+}
+#loader15 span:nth-of-type(1){
+    animation: 200ms 14000ms load_animate1   linear forwards; 
+}
+#loader16 span:nth-of-type(1){
+    animation: 200ms 15000ms load_animate1   linear forwards; 
+}
+#loader17 span:nth-of-type(1){
+    animation: 200ms 16000ms load_animate1   linear forwards; 
+}
+#loader18 span:nth-of-type(1){
+    animation: 200ms 17000ms load_animate1   linear forwards; 
+}
+#loader19 span:nth-of-type(1){
+    animation: 200ms 18000ms load_animate1   linear forwards; 
+}
+#loader20 span:nth-of-type(1){
+    animation: 200ms 19000ms load_animate1   linear forwards; 
+}
+#loader_span2{
+    width: 51%;
+    height: 38%;
+    /* background: blue; */
+    right: 0px;
+    top: 0px;
+}
+#loader1 span:nth-of-type(2){
+    animation: 250ms 200ms load_animate2  linear forwards; 
+}
+#loader2 span:nth-of-type(2){
+    animation: 250ms 1200ms load_animate2  linear forwards; 
+}
+#loader3 span:nth-of-type(2){
+    animation: 250ms 2200ms load_animate2  linear forwards; 
+}
+#loader4 span:nth-of-type(2){
+    animation: 250ms 3200ms load_animate2  linear forwards; 
+}
+#loader5 span:nth-of-type(2){
+    animation: 250ms 4200ms load_animate2  linear forwards; 
+}
+#loader6 span:nth-of-type(2){
+    animation: 250ms 5200ms load_animate2  linear forwards; 
+}
+#loader7 span:nth-of-type(2){
+    animation: 250ms 6200ms load_animate2  linear forwards; 
+}
+#loader8 span:nth-of-type(2){
+    animation: 250ms 7200ms load_animate2  linear forwards; 
+}
+#loader9 span:nth-of-type(2){
+    animation: 250ms 8200ms load_animate2  linear forwards; 
+}
+#loader10 span:nth-of-type(2){
+    animation: 250ms 9200ms load_animate2  linear forwards; 
+}
+#loader11 span:nth-of-type(2){
+    animation: 250ms 10200ms load_animate2  linear forwards; 
+}
+#loader12 span:nth-of-type(2){
+    animation: 250ms 11200ms load_animate2  linear forwards; 
+}
+#loader13 span:nth-of-type(2){
+    animation: 250ms 12200ms load_animate2  linear forwards; 
+}
+#loader14 span:nth-of-type(2){
+    animation: 250ms 13200ms load_animate2  linear forwards; 
+}
+#loader15 span:nth-of-type(2){
+    animation: 250ms 14200ms load_animate2  linear forwards; 
+}
+#loader16 span:nth-of-type(2){
+    animation: 250ms 15200ms load_animate2  linear forwards; 
+}
+#loader17 span:nth-of-type(2){
+    animation: 250ms 16200ms load_animate2  linear forwards; 
+}
+#loader18 span:nth-of-type(2){
+    animation: 250ms 17200ms load_animate2  linear forwards; 
+}
+#loader19 span:nth-of-type(2){
+    animation: 250ms 18200ms load_animate2  linear forwards; 
+}
+#loader20 span:nth-of-type(2){
+    animation: 250ms 19200ms load_animate2  linear forwards; 
+}
+#loader_span3{
+    width: 5%;
+    height: 12%;
+    /* background: orange; */
+    right: 35%;
+    top: 38%;
+}
+#loader1 span:nth-of-type(3){
+    animation: 20ms 450ms load_animate3    linear forwards ;
+}
+#loader2 span:nth-of-type(3){
+    animation: 20ms 1450ms load_animate3    linear forwards ;
+}
+#loader3 span:nth-of-type(3){
+    animation: 20ms 2450ms load_animate3    linear forwards ;
+}
+#loader4 span:nth-of-type(3){
+    animation: 20ms 3450ms load_animate3    linear forwards ;
+}
+#loader5 span:nth-of-type(3){
+    animation: 20ms 4450ms load_animate3    linear forwards ;
+}
+#loader6 span:nth-of-type(3){
+    animation: 20ms 5450ms load_animate3    linear forwards ;
+}
+#loader7 span:nth-of-type(3){
+    animation: 20ms 6450ms load_animate3    linear forwards ;
+}
+#loader8 span:nth-of-type(3){
+    animation: 20ms 7450ms load_animate3    linear forwards ;
+}
+#loader9 span:nth-of-type(3){
+    animation: 20ms 8450ms load_animate3    linear forwards ;
+}
+#loader10 span:nth-of-type(3){
+    animation: 20ms 9450ms load_animate3    linear forwards ;
+}
+#loader11 span:nth-of-type(3){
+    animation: 20ms 10450ms load_animate3    linear forwards ;
+}
+#loader12 span:nth-of-type(3){
+    animation: 20ms 11450ms load_animate3    linear forwards ;
+}
+#loader13 span:nth-of-type(3){
+    animation: 20ms 12450ms load_animate3    linear forwards ;
+}
+#loader14 span:nth-of-type(3){
+    animation: 20ms 13450ms load_animate3    linear forwards ;
+}
+#loader15 span:nth-of-type(3){
+    animation: 20ms 14450ms load_animate3    linear forwards ;
+}
+#loader16 span:nth-of-type(3){
+    animation: 20ms 15450ms load_animate3    linear forwards ;
+}
+#loader17 span:nth-of-type(3){
+    animation: 20ms 16450ms load_animate3    linear forwards ;
+}
+#loader18 span:nth-of-type(3){
+    animation: 20ms 17450ms load_animate3    linear forwards ;
+}
+#loader19 span:nth-of-type(3){
+    animation: 20ms 18450ms load_animate3    linear forwards ;
+}
+#loader20 span:nth-of-type(3){
+    animation: 20ms 19450ms load_animate3    linear forwards ;
+}
+#loader_span4{
+    width: 10%;
+    height: 12%;
+    /* background: peru; */
+    right: 25%;
+    top: 37.5%;
+}
+#loader1 span:nth-of-type(4){
+    animation: 20ms 470ms load_animate4   linear forwards;
+}
+#loader2 span:nth-of-type(4){
+    animation: 20ms 1470ms load_animate4   linear forwards;
+}
+#loader3 span:nth-of-type(4){
+    animation: 20ms 2470ms load_animate4   linear forwards;
+}
+#loader4 span:nth-of-type(4){
+    animation: 20ms 3470ms load_animate4   linear forwards;
+}
+#loader5 span:nth-of-type(4){
+    animation: 20ms 4470ms load_animate4   linear forwards;
+}
+#loader6 span:nth-of-type(4){
+    animation: 20ms 5470ms load_animate4   linear forwards;
+}
+#loader7 span:nth-of-type(4){
+    animation: 20ms 6470ms load_animate4   linear forwards;
+}
+#loader8 span:nth-of-type(4){
+    animation: 20ms 7470ms load_animate4   linear forwards;
+}
+#loader9 span:nth-of-type(4){
+    animation: 20ms 8470ms load_animate4   linear forwards;
+}
+#loader10 span:nth-of-type(4){
+    animation: 20ms 9470ms load_animate4   linear forwards;
+}
+#loader11 span:nth-of-type(4){
+    animation: 20ms 10470ms load_animate4   linear forwards;
+}
+#loader12 span:nth-of-type(4){
+    animation: 20ms 11470ms load_animate4   linear forwards;
+}
+#loader13 span:nth-of-type(4){
+    animation: 20ms 12470ms load_animate4   linear forwards;
+}
+#loader14 span:nth-of-type(4){
+    animation: 20ms 13470ms load_animate4   linear forwards;
+}
+#loader15 span:nth-of-type(4){
+    animation: 20ms 14470ms load_animate4   linear forwards;
+}
+#loader16 span:nth-of-type(4){
+    animation: 20ms 15470ms load_animate4   linear forwards;
+}
+#loader17 span:nth-of-type(4){
+    animation: 20ms 16470ms load_animate4   linear forwards;
+}
+#loader18 span:nth-of-type(4){
+    animation: 20ms 17470ms load_animate4   linear forwards;
+}
+#loader19 span:nth-of-type(4){
+    animation: 20ms 18470ms load_animate4   linear forwards;
+}
+#loader20 span:nth-of-type(4){
+    animation: 20ms 19470ms load_animate4   linear forwards;
+}
+#loader_span5{
+    width: 10%;
+    height: 12%;
+    /* background: blue; */
+    top: 38%;
+    right: 15%;
+}
+#loader1 span:nth-of-type(5){
+    animation: 20ms 490ms load_animate5   linear forwards;
+}
+#loader2 span:nth-of-type(5){
+    animation: 20ms 1490ms load_animate5   linear forwards;
+}
+#loader3 span:nth-of-type(5){
+    animation: 20ms 2490ms load_animate5   linear forwards;
+}
+#loader4 span:nth-of-type(5){
+    animation: 20ms 3490ms load_animate5   linear forwards;
+}
+#loader5 span:nth-of-type(5){
+    animation: 20ms 4490ms load_animate5   linear forwards;
+}
+#loader6 span:nth-of-type(5){
+    animation: 20ms 5490ms load_animate5   linear forwards;
+}
+#loader7 span:nth-of-type(5){
+    animation: 20ms 6490ms load_animate5   linear forwards;
+}
+#loader8 span:nth-of-type(5){
+    animation: 20ms 7490ms load_animate5   linear forwards;
+}
+#loader9 span:nth-of-type(5){
+    animation: 20ms 8490ms load_animate5   linear forwards;
+}
+#loader10 span:nth-of-type(5){
+    animation: 20ms 9490ms load_animate5   linear forwards;
+}   
+#loader11 span:nth-of-type(5){
+    animation: 20ms 10490ms load_animate5   linear forwards;
+} 
+#loader12 span:nth-of-type(5){
+    animation: 20ms 11490ms load_animate5   linear forwards;
+}  
+#loader13 span:nth-of-type(5){
+    animation: 20ms 12490ms load_animate5   linear forwards;
+}
+#loader14 span:nth-of-type(5){
+    animation: 20ms 13490ms load_animate5   linear forwards;
+}
+#loader15 span:nth-of-type(5){
+    animation: 20ms 14490ms load_animate5   linear forwards;
+}
+#loader16 span:nth-of-type(5){
+    animation: 20ms 15490ms load_animate5   linear forwards;
+}
+#loader17 span:nth-of-type(5){
+    animation: 20ms 16490ms load_animate5   linear forwards;
+}
+#loader18 span:nth-of-type(5){
+    animation: 20ms 17490ms load_animate5   linear forwards;
+}
+#loader19 span:nth-of-type(5){
+    animation: 20ms 18490ms load_animate5   linear forwards;
+}
+#loader20 span:nth-of-type(5){
+    animation: 20ms 19490ms load_animate5   linear forwards;
+}
+#loader_span6{
+    width: 50%;
+    height: 50%;
+    bottom: 0px;
+    right: 0px;
+    /* background: yellow; */
+}
+#loader1 span:nth-of-type(6){
+    animation: 150ms 510ms load_animate6    linear forwards;
+}
+#loader2 span:nth-of-type(6){
+    animation: 150ms 1510ms load_animate6    linear forwards;  
+}
+#loader3 span:nth-of-type(6){
+    animation: 150ms 2510ms load_animate6    linear forwards;  
+}
+#loader4 span:nth-of-type(6){
+    animation: 150ms 3510ms load_animate6    linear forwards;  
+}
+#loader5 span:nth-of-type(6){
+    animation: 150ms 4510ms load_animate6    linear forwards;  
+}
+#loader6 span:nth-of-type(6){
+    animation: 150ms 5510ms load_animate6    linear forwards;  
+}
+#loader7 span:nth-of-type(6){
+    animation: 150ms 6510ms load_animate6    linear forwards;  
+}
+#loader8 span:nth-of-type(6){
+    animation: 150ms 7510ms load_animate6    linear forwards;  
+}
+#loader9 span:nth-of-type(6){
+    animation: 150ms 8510ms load_animate6    linear forwards;  
+}
+#loader10 span:nth-of-type(6){
+    animation: 150ms 9510ms load_animate6    linear forwards;  
+}
+#loader11 span:nth-of-type(6){
+    animation: 150ms 10510ms load_animate6    linear forwards;  
+}
+#loader12 span:nth-of-type(6){
+    animation: 150ms 11510ms load_animate6    linear forwards;  
+}
+#loader13 span:nth-of-type(6){
+    animation: 150ms 12510ms load_animate6    linear forwards;  
+}
+#loader14 span:nth-of-type(6){
+    animation: 150ms 13510ms load_animate6    linear forwards;  
+}
+#loader15 span:nth-of-type(6){
+    animation: 150ms 14510ms load_animate6    linear forwards;  
+}
+#loader16 span:nth-of-type(6){
+    animation: 150ms 15510ms load_animate6    linear forwards;  
+}
+#loader17 span:nth-of-type(6){
+    animation: 150ms 16510ms load_animate6    linear forwards;  
+}
+#loader18 span:nth-of-type(6){
+    animation: 150ms 17510ms load_animate6    linear forwards;  
+}
+#loader19 span:nth-of-type(6){
+    animation: 150ms 18510ms load_animate6    linear forwards;  
+}
+#loader20 span:nth-of-type(6){
+    animation: 150ms 19510ms load_animate6    linear forwards;  
+}
+
+#loader_span7{
+    width: 50%;
+    height: 75%;
+    /* background: red; */
+    left: 0px;
+    bottom: 0px;
+}
+#loader1 span:nth-of-type(7){
+    animation: 200ms 660ms linear load_animate7 forwards;
+}
+#loader2 span:nth-of-type(7){
+    animation: 200ms 1660ms linear load_animate7 forwards;
+}
+#loader3 span:nth-of-type(7){
+    animation: 200ms 2660ms linear load_animate7 forwards;
+}
+#loader4 span:nth-of-type(7){
+    animation: 200ms 3660ms linear load_animate7 forwards;
+}
+#loader5 span:nth-of-type(7){
+    animation: 200ms 4660ms linear load_animate7 forwards;
+}
+#loader6 span:nth-of-type(7){
+    animation: 200ms 5660ms linear load_animate7 forwards;
+}
+#loader7 span:nth-of-type(7){
+    animation: 200ms 6660ms linear load_animate7 forwards;
+}
+#loader8 span:nth-of-type(7){
+    animation: 200ms 7660ms linear load_animate7 forwards;
+}
+#loader9 span:nth-of-type(7){
+    animation: 200ms 8660ms linear load_animate7 forwards;
+}
+#loader10 span:nth-of-type(7){
+    animation: 200ms 9660ms linear load_animate7 forwards;
+}
+#loader11 span:nth-of-type(7){
+    animation: 200ms 10660ms linear load_animate7 forwards;
+}
+#loader12 span:nth-of-type(7){
+    animation: 200ms 11660ms linear load_animate7 forwards;
+}
+#loader13 span:nth-of-type(7){
+    animation: 200ms 12660ms linear load_animate7 forwards;
+}
+#loader14 span:nth-of-type(7){
+    animation: 200ms 13660ms linear load_animate7 forwards;
+}
+#loader15 span:nth-of-type(7){
+    animation: 200ms 14660ms linear load_animate7 forwards;
+}
+#loader16 span:nth-of-type(7){
+    animation: 200ms 15660ms linear load_animate7 forwards;
+}
+#loader17 span:nth-of-type(7){
+    animation: 200ms 16660ms linear load_animate7 forwards;
+}
+#loader18 span:nth-of-type(7){
+    animation: 200ms 17660ms linear load_animate7 forwards;
+}
+#loader19 span:nth-of-type(7){
+    animation: 200ms 18660ms linear load_animate7 forwards;
+}
+#loader20 span:nth-of-type(7){
+    animation: 200ms 19660ms linear load_animate7 forwards;
+}
+/* alt key for cursor hide/show *//* alt key 
+for cursor hide/show *//* alt key for cursor hide/show */

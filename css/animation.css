@@ -1,0 +1,245 @@
+   /*..........Animation ............*/
+
+
+   /*...........Loader Time Set.....*/
+   @keyframes loader1{
+    0%{
+        z-index: 1;
+    }
+    100%{
+        z-index: 1;
+    }
+}
+   @keyframes loader2{
+    0%{
+        z-index: 2;
+    }
+    100%{
+        z-index: 2;
+    }
+}
+@keyframes loader3{
+    0%{
+        z-index: 3;
+    }
+    100%{
+        z-index: 3;
+    }
+}
+@keyframes loader4{
+    0%{
+        z-index: 4;
+    }
+    100%{
+        z-index: 4;
+    }
+ }
+ @keyframes loader5{
+    0%{
+        z-index: 5;
+    }
+    100%{
+        z-index: 5;
+    }
+}
+@keyframes loader6{
+    0%{
+        z-index: 6;
+    }
+    100%{
+        z-index: 6;
+    }
+}
+@keyframes loader7{
+    0%{
+        z-index: 7;
+    }
+    100%{
+        z-index: 7;
+    }
+}
+@keyframes loader8{
+    0%{
+        z-index: 8;
+    }
+    100%{
+        z-index: 8;
+    }
+}
+@keyframes loader9{
+    0%{
+        z-index: 9;
+    }
+    100%{
+        z-index: 9;
+
+    }
+}
+@keyframes loader10{
+    0%{
+        z-index: 10;
+    }
+    100%{
+        z-index: 10;
+    }
+} 
+@keyframes loader11{
+    0%{
+        z-index: 11;
+    }
+    100%{
+        z-index: 11;
+    }
+} 
+@keyframes loader12{
+    0%{
+        z-index: 12;
+    }
+    100%{
+        z-index: 12;
+    }
+} 
+@keyframes loader13{
+    0%{
+        z-index: 13;
+    }
+    100%{
+        z-index: 13;
+    }
+} 
+@keyframes loader14{
+    0%{
+        z-index: 14;
+    }
+    100%{
+        z-index: 14;
+    }
+} 
+@keyframes loader15{
+    0%{
+        z-index: 15;
+    }
+    100%{
+        z-index: 15;
+    }
+} 
+@keyframes loader16{
+    0%{
+        z-index: 16;
+    }
+    100%{
+        z-index: 16;
+    }
+}
+@keyframes loader17{
+    0%{
+        z-index: 17;
+    }
+    100%{
+        z-index: 17;
+    }
+}
+@keyframes loader18{
+    0%{
+        z-index: 18;
+    }
+    100%{
+        z-index: 18;
+    }
+}
+@keyframes loader19{
+    0%{
+        z-index: 19;
+    }
+    100%{
+        z-index: 19;
+    }
+}
+@keyframes loader20{
+    0%{
+        z-index: 20;
+    }
+    100%{
+        z-index: 20;
+    }
+}
+   /*.........Loader Time Set End......*/
+
+   @keyframes load_animate1{
+    0%{
+        transform: scaleY(1);
+        transform-origin: top;
+    }
+     100%{
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+   
+}
+@keyframes load_animate2{
+   0%{
+       transform: scaleY(1);
+       transform-origin: bottom;
+   }
+100%{
+       transform: scaleY(0);
+       transform-origin: bottom;
+   }
+   
+}
+@keyframes load_animate3{
+    0%{
+        transform: scaleY(1);
+    transform-origin:  bottom
+    }
+   100%{
+        transform: scaleY(0);
+    transform-origin:  bottom;
+
+    }
+}
+@keyframes load_animate4{
+    0%{
+        transform: scaleX(1);
+    transform-origin:  right;
+    }
+  100%{
+        transform: scaleX(0);
+    transform-origin: right ;
+
+    }
+}
+@keyframes load_animate5{
+    0%{
+        transform: scaleY(1);
+    transform-origin:  bottom;
+    }
+     100%{
+        transform: scaleY(0);
+    transform-origin: bottom;
+
+    }
+}
+@keyframes load_animate6{
+    0%{
+        transform: scaleY(1);
+    transform-origin:  bottom;
+    }
+    100%{
+        transform: scaleY(0);
+    transform-origin: bottom;
+
+    }
+}
+
+@keyframes load_animate7{
+    0%{
+        transform: scaleY(1);
+    transform-origin:  top;
+    }
+100%{
+        transform: scaleY(0);
+    transform-origin: top;
+
+    }
+}
